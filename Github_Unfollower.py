@@ -66,7 +66,6 @@ def main():
 
     not_following_back = your_following - your_followers
 
-    print("Sizi geri takip etmeyen kullanıcılar:")
     for user in not_following_back:
         print(user)
 
